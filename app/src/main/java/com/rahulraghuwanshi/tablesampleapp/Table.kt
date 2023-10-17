@@ -26,7 +26,7 @@ import androidx.compose.ui.unit.dp
 
 @Preview
 @Composable
-fun TableScreen() {
+fun TableScreenSecond() {
 
     Table(columnCount = 100, rowCount = 20000) { columnIndex, rowIndex ->
         Text(
